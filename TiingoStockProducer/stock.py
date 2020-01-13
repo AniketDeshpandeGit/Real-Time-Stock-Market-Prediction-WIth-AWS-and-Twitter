@@ -9,8 +9,8 @@ import requests
 my_stream_name = 'stock-data'
 
 kinesis_client = boto3.client('kinesis',
-                              aws_access_key_id="AKIAT3PTZM7VCJ6EQ2I5",
-                              aws_secret_access_key="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",
+                              aws_access_key_id="********************",
+                              aws_secret_access_key="****************************************",
                               region_name="us-east-1")
 
 def put_to_stream(payload):
